@@ -19,7 +19,7 @@ namespace ApartmanOtomasyonu
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("başlangıç");
+            MessageBox.Show("başlangıç2");
         }
     }
 }
