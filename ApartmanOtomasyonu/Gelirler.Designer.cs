@@ -95,6 +95,11 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(137, 132);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(155, 34);
             this.numericUpDown1.TabIndex = 4;
@@ -115,6 +120,7 @@
             this.btn_Ekle.TabIndex = 6;
             this.btn_Ekle.Text = "Ekle";
             this.btn_Ekle.UseVisualStyleBackColor = true;
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // groupBox1
             // 
@@ -171,6 +177,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Gelirler";
             this.Text = "Gelirler";
+            this.Load += new System.EventHandler(this.Gelirler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
