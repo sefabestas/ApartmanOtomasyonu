@@ -35,6 +35,6 @@ namespace ApartmanOtomasyonu
             sda.Fill(dt);
             return dt;
 
-        }
+        }        
     }
 }
